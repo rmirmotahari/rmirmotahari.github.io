@@ -19,6 +19,7 @@ body {
   padding-bottom:20px;
   width:100%;
   display:flex;
+  
   justify-content:space-between;
 }
 
@@ -26,11 +27,14 @@ body {
   display:flex;
   justify-content:space-between;
   width:100%;
+ 
   max-width:600px;
 }
 
 .flex-outer {
   color:white;
+  
+  display:flex;
 }
 
 .flex-outer button {
