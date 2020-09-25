@@ -1,0 +1,30 @@
+body {
+  background-color: #2A9D8F;
+}
+
+.wrapper {
+  width:100%;
+}
+.container {
+  margin-left:auto;
+  margin-right:auto;
+  width:90%; 
+  max-width:1000px;
+  
+}
+
+.flex-outer > li {
+  padding-top:20px;
+  padding-bottom:20px;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+
+.flex-inner {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  max-width:600px;
+}
+
