@@ -12,7 +12,9 @@ body {
   max-width:1000px;
   
 }
-
+.flex-outer ul {
+  max-width:800px;
+}
 
 .flex-outer > li {
   padding-top:20px;
