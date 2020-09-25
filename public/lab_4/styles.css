@@ -13,6 +13,7 @@ body {
   
 }
 
+
 .flex-outer > li {
   padding-top:20px;
   padding-bottom:20px;
@@ -26,5 +27,19 @@ body {
   justify-content:space-between;
   width:100%;
   max-width:600px;
+}
+
+.flex-outer {
+  color:white;
+}
+
+.flex-outer button {
+  padding:20px 40px;
+  text-transform:uppercase;
+  border:1px solid #fff;
+  background:transparent;
+  color:white;
+  font-weight:800;
+  letter-spacing:2px;
 }
 
