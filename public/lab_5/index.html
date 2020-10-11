@@ -7,7 +7,9 @@
   <body>
     <div class="wrapper">
       <div class="container">
-        <header><h1>Romin Mirmotahari's Lab 5</h1></header>
+        <header><h1>
+            Romin Mirmotahari Lab 4
+        </h1></header>
 
         <!--HTML Form-->
         <div class="container">
@@ -65,12 +67,22 @@
               <li>
                 <label id="button" for="button">Other</label>
                 <button id="btn" name="submit" type="submit">Submit</button>
+                <button id="btn2" name="submit" type="submit">Activate</button>
               </li>
             </ul>
           </form>
         </div>
       </div>
     </div>
+    <script>
+        function testFunction() {
+        fetch('/api')
+        .then((response) => response.text())
+        .then((response) => {
+            console.log(response);
+        })
+}
+    </script>
   </body>
   
 </html>

@@ -67,7 +67,7 @@ body {
   }
   
   .flex-inner li {
-    width:80px;
+    width:90px;
   }
   
   .flex-outer {
@@ -84,6 +84,7 @@ body {
     font-weight:800;
     letter-spacing:1.2px;
     border-radius:3px;
+    margin-right:10px
   }
   
   
