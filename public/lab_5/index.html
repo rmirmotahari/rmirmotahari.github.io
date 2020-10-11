@@ -1,1 +1,76 @@
-testing testing testing
+<html lang="en">
+  <head >
+    <meta charset="utf-8">
+    <title>Romin Mirmotahari's Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header><h1>Romin Mirmotahari's Lab 5</h1></header>
+
+        <!--HTML Form-->
+        <div class="container">
+          <form action="/api" method="post">
+            <ul class="flex-outer">
+              <li>
+                <label id="fname-label" for="fname">First Name</label>
+                <input name="First Name" type="text" id="fname" placeholder="Enter your first name here" maxlength="140">
+              </li>
+              <li>
+                <label id="lname-label" for="lname">Last Name</label>
+                <input name="Last Name" type="text" id="lname" placeholder="Enter your last name here" maxlength="140">
+              </li>
+              <li>
+                <label id="email-label" for="email">Email</label>
+                <input name="Email" type="email" id="email" placeholder="Enter your email here">
+              </li>
+              <li>
+                <label id="phone-label" for="phone">Phone</label>
+                <input name="Phone" type="tel" id="phone" placeholder="Enter your phone here">
+              </li>
+              <li>
+                <label id="message-label" for="message">Message</label>
+                <textarea name="message" rows="6" cols="33" id="message" placeholder="Enter your message here"></textarea>
+              </li>
+              <li>
+                <p>Age</p>
+                <ul class="flex-inner">
+                  <li>
+                    <input name="Age 20-29" type="checkbox" id="twenty-to-twentynine">
+                    <label id="Age 20-29" for="twenty-to-twentynine">20-29</label>
+                  </li>
+                  <li>
+                    <input name="Age 30-39" type="checkbox" id="thirty-to-thirtynine">
+                    <label id="Age 30-39" for="thirty-to-thirtynine">30-39</label>
+                  </li>
+                  <li>
+                    <input name="Age 40-49" type="checkbox" id="fourty-to-fourtynine">
+                    <label id="Age 40-49" for="fourty-to-fourtynine">40-49</label>
+                  </li>
+                  <li>
+                    <input name="Age 50-59" type="checkbox" id="fifty-to-fiftynine">
+                    <label id="Age 50-59" for="fifty-to-fiftynine">50-59</label>
+                  </li>
+                  <li>
+                    <input name="Age 60-69" type="checkbox" id="sixty-to-sixtynine">
+                    <label id="Age 60-69" for="sixty-to-sixtynine">60-69</label>
+                  </li>
+                  <li>
+                    <input  name="Age Other"type="checkbox" id="other">
+                    <label id="Age Other" for="other">Other</label>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <label id="button" for="button">Other</label>
+                <button id="btn" name="submit" type="submit">Submit</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+</html>
