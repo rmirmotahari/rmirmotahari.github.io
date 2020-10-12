@@ -74,20 +74,20 @@
         </div>
       </div>
     </div>
-    
+    <script>
+      function testFunction() {
+      fetch('/api')
+      .then((response) => response.text())
+      .then((response) => {
+          console.log(response);
+         
+          document.querySelector(".header-text").textContent = response;
+      });
+  
+      document.body.style.backgroundColor = "#183A37";
+      
+  }
+  </script>
   </body>
-  <script>
-    function testFunction() {
-    fetch('/api')
-    .then((response) => response.text())
-    .then((response) => {
-        console.log(response);
-       
-        document.querySelector(".header-text").textContent = response;
-    });
-
-    document.body.style.backgroundColor = "#183A37";
-    
-}
-</script>
+  
 </html>
